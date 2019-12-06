@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NeuStack</title>
+    <description>Accelerate building of your serverless solutions</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 05 Dec 2019 23:47:49 -0800</pubDate>
+    <lastBuildDate>Thu, 05 Dec 2019 23:47:49 -0800</lastBuildDate>
+    <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>Why Serverless is the future of cloud computing?</title>
+        <description>&lt;p&gt;Serverless is an evolutionary paradigm in cloud computing where you run your applications and services &lt;strong&gt;without explicitly&lt;/strong&gt; provisioning/managing the servers (and hence &lt;em&gt;serverless&lt;/em&gt;). With the serverless offering, cloud providers are finally delivering on the true promise of the cloud — infinite capacity and automatic scaling with no scripts/configurations to manage. In this model, cloud providers take full responsibility of operating and managing the infrastructure, in turn helping businesses focus on their high value application.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/posts/2019/CloudComputingEvolution.png&quot; alt=&quot;Cloud Computing Evolution&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The cloud providers offer serverless compute time by providing “Function as a Service” (FaaS). With FaaS, every time your code is invoked, the FaaS provider runs your code on a server that is provisioned, optimized and patched with the latest updates.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-jekyll&quot;&gt;What is Jekyll?&lt;/h2&gt;
+
+&lt;p&gt;Jekyll is a simple, blog-aware, static site generator.&lt;/p&gt;
+
+&lt;p&gt;You create your content as text files (Markdown), and organize them into folders. Then, you build the shell of your site using Liquid-enhanced HTML templates. Jekyll automatically stitches the content and templates together, generating a website made entirely of static assets, suitable for uploading to any server.&lt;/p&gt;
+
+&lt;p&gt;Jekyll happens to be the engine behind GitHub Pages, so you can host your project’s Jekyll page/blog/website on GitHub’s servers for free.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 04 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/why-serverless</link>
+        <guid isPermaLink="true">http://localhost:4000/why-serverless</guid>
+        
+        <category>Serverless</category>
+        
+        <category>cloud</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

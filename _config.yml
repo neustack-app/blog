@@ -1,0 +1,66 @@
+# Site setings
+name: 'NeuStack'
+description: 'Accelerate building of your serverless solutions'
+meta_description: 'serverless, aws, azure, gcp, lambda, function, cloudfront, cognito, s3, dynamodb.'
+logo: 'assets/images/NeuStack_Logo.png'
+favicon: 'assets/images/favicon.png'
+baseurl: 
+production_url: https://blog.neustack.app/
+disqus: 
+mailchimp_url: 
+cover_image: bc_1.jpg
+# Add your GA Tracking Id
+ga_analytics: UA-153504418-2
+
+
+# Author
+# author:
+#   name: 'Surya Jakhotia'
+#   # image: 'authorimage.jpg'
+#   greetings: 'Hi there!'
+#   description: "My name is Surya Jakhotia. I'm a developer based out of Seattle, WA."
+#   bio: 'Surya is a technologist, photographer, speaker, and the founder of NeuStack.'
+
+# Contact form setings
+email: support@neustack.app
+contact_page_description: "Please share your feedback here."
+thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
+
+# Social links
+twitter: 'NeuStackA'
+facebook: 'NeuStack'
+github: 'neustackapp'
+codepen: 
+dribbble: 
+medium: 
+instagram: 
+pinterest: 
+linkedin: 'NeuStack'
+producthunt: 
+
+# Navigation
+navigation:
+  - text: Blog
+    url: /
+
+# Required Plugins
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-tagsgenerator
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Permalinks
+permalink: /:title
+
+# Other
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
