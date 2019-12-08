@@ -15,10 +15,29 @@ Serverless is an evolutionary paradigm in cloud computing where you run your app
 
 The cloud providers offer serverless compute time by providing “Function as a Service” (FaaS). With FaaS, every time your code is invoked, the FaaS provider runs your code on a server that is provisioned, optimized and patched with the latest updates.
 
-## What is Jekyll?
+## Why Serverless?
 
-Jekyll is a simple, blog-aware, static site generator.
+Whether you are a Developer, DevOps or Product owner you want to evaluate serverless for building and architecting your next cloud application.
 
-You create your content as text files (Markdown), and organize them into folders. Then, you build the shell of your site using Liquid-enhanced HTML templates. Jekyll automatically stitches the content and templates together, generating a website made entirely of static assets, suitable for uploading to any server.
+**Developer**: Just write code
 
-Jekyll happens to be the engine behind GitHub Pages, so you can host your project’s Jekyll page/blog/website on GitHub’s servers for free.
+    Write code and deploy your service without ever having to think about the number of machines to provision.
+    High availability and horizontal scaling is out of the box with no additional architectural/configuration changes.
+    Polyglots choose the optimal language for the problem at hand — Go, Javascript (NodeJS), Python, Java, C# where you don’t have to worry about installing runtimes/dependencies.
+    Cost of operating a non-prod environment is very low as you never pay for idle time. Combined with scale on demand, this should enable developers to rapidly iterate on their new changes.
+
+**DevOps**: Zero administration
+
+    No patching/downtime notices — Imagine being 100% compliant with meltdown/spectre while everyone is busy taking servers down, patching them.
+
+    No more provisioning of resources based on current, peak and anticipated loads. No midnight pagers to handle surge of traffic.
+
+    Run your scheduled cron jobs without the overhead of standing up/maintaining the one-off machines.
+
+**Product Owner**: Agility and improved productivity at reduced costs
+
+    FaaS has utility pricing, you pay only when your resource is used and not when resources are provisioned. This could mean significant savings for your business as you will no longer pay for idle resources and/or orphaned VM’s/containers.
+    Developers and DevOps have a few less things to worry about leading to accelerated delivery.
+    Your application is ready to scale on Day 1.
+
+    
