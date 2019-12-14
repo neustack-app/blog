@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Why Serverless is the future of cloud computing?
-tags:
-  - Serverless
-  - cloud
+title: "Why Serverless is the future of cloud computing?"
+tags: [ serverless, cloud ]
 featured_image_thumbnail: assets/images/posts/2019/programming.jpg
 featured: true
 canonical_url: >-
