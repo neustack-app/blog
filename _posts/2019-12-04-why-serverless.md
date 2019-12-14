@@ -5,6 +5,7 @@ tags: [ Serverless, cloud ]
 featured_image_thumbnail: assets/images/posts/2019/programming.jpg
 # featured_image: assets/images/posts/2019/CloudComputingEvolution.png
 featured: true
+canonical_url: https://medium.com/@suryaj/why-serverless-is-the-future-of-cloud-computing-45e417dc4018
 ---
 
 Serverless is an evolutionary paradigm in cloud computing where you run your applications and services **without explicitly** provisioning/managing the servers (and hence *serverless*). With the serverless offering, cloud providers are finally delivering on the true promise of the cloud — infinite capacity and automatic scaling with no scripts/configurations to manage. In this model, cloud providers take full responsibility of operating and managing the infrastructure, in turn helping businesses focus on their high value application.
