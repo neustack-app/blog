@@ -3,6 +3,9 @@ language: ruby
 install: gem install jekyll html-proofer jekyll-sitemap
 script: scripts/build.sh
 
+before_install:
+  - chmod +x scripts/build.sh scripts/deploy.sh
+
 # branch whitelist
 branches:
   only:
