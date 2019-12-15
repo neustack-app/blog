@@ -8,7 +8,7 @@ script: scripts/build.sh
 # branch whitelist
 branches:
   only:
-  - master     # test the master branch
+  - dev     # test the master branch
   - /pages-(.*)/ # test every branch which starts with "pages-"
 
 env:
@@ -20,4 +20,4 @@ deploy:
   provider: script
   script: scripts/deploy.sh
   on:
-    branch: master
+    branch: dev
