@@ -9,7 +9,7 @@ before_install:
 # branch whitelist
 branches:
   only:
-  - dev     # test the master branch
+  - master     # test the master branch
   - /pages-(.*)/ # test every branch which starts with "pages-"
 
 env:
@@ -21,4 +21,4 @@ deploy:
   provider: script
   script: scripts/deploy.sh
   on:
-    branch: dev
+    branch: master
